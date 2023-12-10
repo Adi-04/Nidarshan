@@ -2,7 +2,7 @@ import os
 from box import Box
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from Nidarshan import logger
 import json
 import joblib
 from ensure import ensure_annotations
