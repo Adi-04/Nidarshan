@@ -190,3 +190,57 @@ Source-Age: 0
 [2023-12-10 16:27:21,092: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
 
 x====================x]
+[2023-12-10 19:33:32,355: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-12-10 19:33:32,356: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-12-10 22:02:16,878: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:02:16,890: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:02:16,892: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:02:16,892: INFO: common: Create directory at: artifacts/prepare_base_model]
+[2023-12-10 22:02:17,532: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-10 22:07:20,241: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-12-10 22:07:20,246: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-12-10 22:07:20,739: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-12-10 22:07:20,739: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:07:20,739: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:07:20,739: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:07:20,739: INFO: common: Create directory at: artifacts/data_ingestion]
+[2023-12-10 22:07:30,376: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 49213740
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "5233545dbdacd20ab80ba163c69c0c3a0bb45d9efe54f9d34bb13251bec4a6c5"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 64BE:5EB7:A39E46:CC411A:6575E941
+Accept-Ranges: bytes
+Date: Sun, 10 Dec 2023 16:37:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10245-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1702226242.615237,VS0,VE5090
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0f6d67c4941f0167aac044c868011bf16516f4bd
+Expires: Sun, 10 Dec 2023 16:42:26 GMT
+Source-Age: 4
+
+]
+[2023-12-10 22:07:31,116: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x]
+[2023-12-10 22:07:31,116: INFO: main: *******************************]
+[2023-12-10 22:07:31,116: INFO: main: >>>>>> stage Prepare base model started <<<<<<<]
+[2023-12-10 22:07:31,116: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:07:31,120: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:07:31,120: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:07:31,120: INFO: common: Create directory at: artifacts/prepare_base_model]
+[2023-12-10 22:07:31,713: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-10 22:07:31,929: INFO: main: >>>>>> stage Prepare base model completed <<<<<<< 
+
+x====================x]
