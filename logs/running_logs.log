@@ -244,3 +244,178 @@ x====================x]
 [2023-12-10 22:07:31,929: INFO: main: >>>>>> stage Prepare base model completed <<<<<<< 
 
 x====================x]
+[2023-12-10 22:12:27,037: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-12-10 22:12:27,037: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-12-10 22:12:46,238: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:12:46,241: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:12:46,241: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:12:46,241: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:12:46,246: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:17:44,403: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-12-10 22:17:44,405: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-12-10 22:20:10,985: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:20:10,988: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:20:10,989: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:20:10,990: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:20:10,991: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:22:27,887: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:22:27,889: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:22:27,890: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:22:27,891: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:22:27,892: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:26:07,067: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:26:07,070: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:26:07,071: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:26:07,072: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:26:07,073: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:29:17,049: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:29:17,050: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:29:17,051: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:29:17,052: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:29:17,053: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:36:25,686: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:36:25,689: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:36:25,690: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:36:25,690: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:36:25,691: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:40:29,451: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:40:29,453: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:40:29,454: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:40:29,455: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:40:29,455: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:41:32,354: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:41:32,355: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:41:32,356: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:41:32,357: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:41:32,358: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:41:32,359: INFO: common: Create directory at: artifacts\training]
+[2023-12-10 22:41:51,861: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 22:41:51,863: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 22:41:51,864: INFO: common: Create directory at: artifacts]
+[2023-12-10 22:41:51,864: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 22:41:51,865: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 22:41:51,865: INFO: common: Create directory at: artifacts\training]
+[2023-12-10 23:26:06,095: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-12-10 23:26:06,095: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-12-10 23:26:06,769: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-12-10 23:26:06,780: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 23:26:06,780: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 23:26:06,780: INFO: common: Create directory at: artifacts]
+[2023-12-10 23:26:06,780: INFO: common: Create directory at: artifacts/data_ingestion]
+[2023-12-10 23:26:17,575: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 49213740
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "5233545dbdacd20ab80ba163c69c0c3a0bb45d9efe54f9d34bb13251bec4a6c5"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7ECA:B4DBAE:DC85B6:6575FBB5
+Accept-Ranges: bytes
+Date: Sun, 10 Dec 2023 17:56:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10244-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1702230968.337747,VS0,VE5055
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bc0a7b2dcba13b5eacdcc9c189794595fd05400a
+Expires: Sun, 10 Dec 2023 18:01:13 GMT
+Source-Age: 5
+
+]
+[2023-12-10 23:26:18,571: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x]
+[2023-12-10 23:26:18,572: INFO: main: *******************************]
+[2023-12-10 23:26:18,573: INFO: main: >>>>>> stage Prepare base model started <<<<<<<]
+[2023-12-10 23:26:18,578: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 23:26:18,580: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 23:26:18,580: INFO: common: Create directory at: artifacts]
+[2023-12-10 23:26:18,581: INFO: common: Create directory at: artifacts/prepare_base_model]
+[2023-12-10 23:26:19,482: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-10 23:26:20,207: INFO: main: >>>>>> stage Prepare base model completed <<<<<<< 
+
+x====================x]
+[2023-12-10 23:26:20,208: INFO: main: >>>>>> stage Training started <<<<<<<]
+[2023-12-10 23:26:20,214: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 23:26:20,219: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 23:26:20,220: INFO: common: Create directory at: artifacts]
+[2023-12-10 23:26:20,223: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 23:26:20,224: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 23:26:20,227: INFO: common: Create directory at: artifacts\training]
+[2023-12-10 23:26:21,055: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chicken-fecal-images']
+Traceback (most recent call last):
+  File "C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\main.py", line 33, in <module>
+    obj.main()
+  File "c:\users\bhand\onedrive\desktop\deep learning\nidarshan\src\Nidarshan\pipeline\stage_03_training.py", line 22, in main
+    training.train_valid_generator()
+  File "c:\users\bhand\onedrive\desktop\deep learning\nidarshan\src\Nidarshan\components\training.py", line 36, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\bhand\anaconda3\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\bhand\anaconda3\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chicken-fecal-images'
+[2023-12-10 23:27:29,302: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-12-10 23:27:29,302: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-12-10 23:27:30,005: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-12-10 23:27:30,008: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 23:27:30,010: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 23:27:30,010: INFO: common: Create directory at: artifacts]
+[2023-12-10 23:27:30,011: INFO: common: Create directory at: artifacts/data_ingestion]
+[2023-12-10 23:27:35,976: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 49213740
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "5233545dbdacd20ab80ba163c69c0c3a0bb45d9efe54f9d34bb13251bec4a6c5"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7ECA:B4DBAE:DC85B6:6575FBB5
+Accept-Ranges: bytes
+Date: Sun, 10 Dec 2023 17:57:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1702231051.713035,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 99f77812c06c6a3ea780179fb9ca2f6fbc046a06
+Expires: Sun, 10 Dec 2023 18:02:30 GMT
+Source-Age: 82
+
+]
+[2023-12-10 23:27:36,641: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x]
+[2023-12-10 23:27:36,642: INFO: main: *******************************]
+[2023-12-10 23:27:36,642: INFO: main: >>>>>> stage Prepare base model started <<<<<<<]
+[2023-12-10 23:27:36,645: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 23:27:36,646: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 23:27:36,646: INFO: common: Create directory at: artifacts]
+[2023-12-10 23:27:36,647: INFO: common: Create directory at: artifacts/prepare_base_model]
+[2023-12-10 23:27:37,045: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-10 23:27:37,236: INFO: main: >>>>>> stage Prepare base model completed <<<<<<< 
+
+x====================x]
+[2023-12-10 23:27:37,236: INFO: main: >>>>>> stage Training started <<<<<<<]
+[2023-12-10 23:27:37,240: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\config\config.yaml loaded successfully]
+[2023-12-10 23:27:37,241: INFO: common: yaml file: C:\Users\bhand\OneDrive\Desktop\Deep Learning\Nidarshan\params.yaml loaded successfully]
+[2023-12-10 23:27:37,242: INFO: common: Create directory at: artifacts]
+[2023-12-10 23:27:37,243: INFO: common: Create directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-12-10 23:27:37,243: INFO: common: Create directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-12-10 23:27:37,245: INFO: common: Create directory at: artifacts\training]
+[2023-12-10 23:56:48,166: INFO: main: >>>>>> stage Training completed <<<<<<< 
+
+x====================x]
