@@ -1,0 +1,117 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/Nidarshan/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 8ed855b3ba43abc8aa5ce77a4660dd88
+      size: 787
+    - path: src/Nidarshan/pipeline/stage_01_data_ingestion.py
+      hash: md5
+      md5: 719490b96b4cbf4716ba85c894ac1b58
+      size: 927
+    outs:
+    - path: artifacts/data_ingestion/results-1/train_data
+      hash: md5
+      md5: 32483e3498fa3ceef0b60c1ce35fd0f8.dir
+      size: 51388587
+      nfiles: 601
+  prepare_base_model:
+    cmd: python src/Nidarshan/pipeline/stage_02_prepare_base_model.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 8ed855b3ba43abc8aa5ce77a4660dd88
+      size: 787
+    - path: src/Nidarshan/pipeline/stage_02_prepare_base_model.py
+      hash: md5
+      md5: cb04ab3afcbc531d555c01a8464db9df
+      size: 958
+    params:
+      params.yaml:
+        CLASSES: 4
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+        INCLUDE_TOP: false
+        LEARNING_RATE: 0.01
+        WEIGHTS: imagenet
+    outs:
+    - path: artifacts/prepare_base_model
+      hash: md5
+      md5: 6f31228f40eec32b113a28f7707c7c7e.dir
+      size: 118256224
+      nfiles: 2
+  training:
+    cmd: python src/Nidarshan/pipeline/stage_03_training.py
+    deps:
+    - path: artifacts/data_ingestion/results-1/train_data
+      hash: md5
+      md5: 32483e3498fa3ceef0b60c1ce35fd0f8.dir
+      size: 51388587
+      nfiles: 601
+    - path: artifacts/prepare_base_model
+      hash: md5
+      md5: 6f31228f40eec32b113a28f7707c7c7e.dir
+      size: 118256224
+      nfiles: 2
+    - path: config/config.yaml
+      hash: md5
+      md5: 8ed855b3ba43abc8aa5ce77a4660dd88
+      size: 787
+    - path: src/Nidarshan/components/prepare_callbacks.py
+      hash: md5
+      md5: fcf6de52370656596ae25fc0335683f9
+      size: 1002
+    - path: src/Nidarshan/pipeline/stage_03_training.py
+      hash: md5
+      md5: 10ca08d4cc266ec23b30f8b1ce2b9c05
+      size: 1215
+    params:
+      params.yaml:
+        AUGMENTATION: true
+        BATCH_SIZE: 20
+        EPOCHS: 25
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+    outs:
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 065513f7a6c550e00a7502ecef3de37b
+      size: 59739416
+  evaluation:
+    cmd: python src/Nidarshan/pipeline/stage_04_evaluation.py
+    deps:
+    - path: artifacts/data_ingestion/results-1/train_data
+      hash: md5
+      md5: 32483e3498fa3ceef0b60c1ce35fd0f8.dir
+      size: 51388587
+      nfiles: 601
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 065513f7a6c550e00a7502ecef3de37b
+      size: 59739416
+    - path: config/config.yaml
+      hash: md5
+      md5: 8ed855b3ba43abc8aa5ce77a4660dd88
+      size: 787
+    - path: src/Nidarshan/pipeline/stage_04_evaluation.py
+      hash: md5
+      md5: 56440c3c189a0d962a2828747639f101
+      size: 923
+    params:
+      params.yaml:
+        BATCH_SIZE: 20
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+    outs:
+    - path: scores.json
+      hash: md5
+      md5: 5a299a0f0a82773a7cc3899e7851b695
+      size: 72
